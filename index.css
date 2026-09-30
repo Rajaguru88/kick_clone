@@ -580,13 +580,13 @@ body {
     border-bottom: 2px solid green;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 575.99px) {
     .sidebar {
         display: flex;
         position: fixed;
         bottom: 1px;
         top: 90%;
-        left: 10%;
+        left: 5%;
         gap: 50px;
         width: auto;
         height: 70px;
@@ -644,9 +644,9 @@ body {
         min-width: 120px;
         flex-shrink: 0;
     }
-    body{
+    /* body{
         overflow-x: hidden;
-    }
+    } */
     .menu-btn{
         display: none;
     }
